@@ -8,86 +8,106 @@
     <meta name="description" content="услуги ремонта">
     <title>Услуги ремонта</title>
 </head>
-<header> <!--Меню для телефона-->
-    <nav class="nav1">
-        <div class="ch"> <input type="checkbox" name="nav1__checkbox" id="nav1__checkbox">
-            <label for="nav1__checkbox" class="nav1__toggle"><img src="icons/burger.png"></label>
+<main>
+    <!-- Навигация для планшета и мобы -->
+     <div class="nav-section">
+        <div class="container nav-section__nav">
+            <header class="nav-section__header header">
+                <div class="nav-section__burger-logo">
+                    <div class="nav-section__burger icon">
+                        <img src="../src/icons/lines.png" alt="burger">
+                    </div>
+                    <div class="nav-section__devider devider">
+                        <img src="../src/icons/divider.png" alt="devider">
+                    </div>
+
+                    <div class="nav-section__logo logo">
+                        <img src="../src/icons/logopic.png" alt="logo">
+                    </div>
+                </div>
+
+                <ul class="nav-section__list">
+                    <li class="nav-section__list-item">
+                        <div class="icon"><img src="../src/icons/phone.png" alt="звонок"></div>
+                    </li>
+                    <li class="nav-section__list-item">
+                        <div class="icon"><img src="../src/icons/mes.png" alt="сообщение"></div>
+                    </li>
+                    <li class="nav-section__list-item">
+                        <div class="icon"><img src="../src/icons/prof.png" alt="профиль"></div>
+                    </li>
+                    <div class="nav-section__devider devider">
+                        <img src="../src/icons/divider.png" alt="devider">
+                    </div>
+                    <li class="nav-section__list-item">
+                        <div class="icon"><img src="../src/icons/Group.svg" alt="заявка"></div>
+                    </li>
+                    <li class="nav-section__list-item">
+                        <div class="icon"><img src="../src/icons/icon.png" alt="статус ремонта"></div>
+                    </li>
+                    
+                </ul>
+
+            </header>
         </div>
-        <div class="nav1__logo"><a href="#"><img class="logo" src="icons/Group.png"></a></div>
-        <div class="divider"><img src="icons/divider.png"></div>
-        <div class="nav1__repair"><a href="#"><img src="icons/repair.png"></a></div>
-        <div><a href="#"><img src="icons/checkstatus.png"></a></div>
-    </nav>
-<!--Меню для планшета-->
-    <nav class="nav2"> 
-        <div class="menu1">
-            <div><a href="#" class="menu1__burger"><img src="icons/burger.png"></a></div>
-            <div class="divider"><img src="icons/divider.png"></div>
-            <div><a href="#" class="menu2__group"><img src="icons/Group.png"></a></div>
+     </div>
+    <!-- Главная секция -->
+     <div class="main-section">
+        <div class="container main-section__nav-container">
+            <!-- Навигационное меню -->
+             <header class="main-section__header header">
+                <div class="main-section__title title"><h1>Услуги и сервисы</h1></div>
+                <ul class="main-section__list">
+                    <li class="main-section__list-item">Оставить заявку
+                        <div class="icon"><img src="../src/icons/Group.svg" alt="заявка"></div>
+                    </li>
+                    <li class="main-section__list-item">Статус ремонта
+                        <div class="icon"><img src="../src/icons/icon.png" alt="статус ремонта"></div>
+                    </li>
+                </ul>
+             </header>
         </div>
-        <div class="menu2">
-              <div class="menu2__call"><a href="#"><img src="icons/call.png"></a></div>
-              <div class="menu2__message"><a href="#"><img src="icons/chat.png"></a></div>
-              <div class="menu2__profile"><a href="#"><img src="icons/profile.png"></a></div>
-              <div class="divider"><img src="icons/divider.png"></div>
-              <div class="menu2__repair"><a href="#"><img src="icons/repair.png"></a></div>
-              <div class="menu2__checkstatus"><a href="#"><img src="icons/checkstatus.png"></a></div>
+
+        <!-- Список услуг  -->
+        <div class="container main-section__menu-container">
+            <ul class="menu-container__menu-list menu-list">
+                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Ремонтируемые бренды</a></li>
+                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Ремонтируемые устройства</a></li>
+                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Цены на услуги</a></li>
+                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Адреса сервисных центров</a></li>
+                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Специальные цены</a></li>
+                
+                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Отзывы</a></li>
+              </ul>
         </div>
-    </nav>
-<!-- Меню для пк-->
-    <nav class="nav3">
-        <div class="nav3__title"><h1>Услуги и сервисы</h1></div>
-        <ul class="nav3__menu">
-            <li><a href="#">Оставить заявку</a><img src="icons/repair.png"></li>
-            <li><a href="#">Статус ремонта</a><img src="icons/checkstatus.png"></li>
-        </ul>
-    </nav>
 
+        <!-- Контентный контейнер -->
+         <div class="main-section__content-container container">
+            <!-- Левый контейнер -->
+            <div class="left-wrapper">
+                <!-- Текст -->
+                <p class="left-wrapper__text">Мы являемся авторизованным сервисным
+                    центром по ремонту техники Dell.
+                     Только у нас вы можете отремонтировать свой ноутбук Dell
+               с официальной гарантией производителя. </p>
 
-
-
-</header>
-<body>
-    <main>
-        <div class="title"><h1>Услуги и сервисы</h1></div>    
-        <div class="menu-container">
-            <ul class="menu">
-              <li><a href="#">Ремонтируемые устройства</a></li>
-              <li><a href="#">Дополнительные услуги</a></li>
-              <li><a href="#">Цены на услуги</a></li>
-              <li><a href="#">Специальные цены</a></li>
-              <li><a href="#">Адреса сервисных центров</a></li>
-              <li><a href="#">Отзывы</a></li>
-            </ul>
-          </div>
-
-        <section class="repair">
-
-            <div class="text-container">
-                <p class="text">Мы являемся авторизованным сервисным
-                     центром по ремонту техники Dell.
-                      Только у нас вы можете отремонтировать свой ноутбук Dell
-                с официальной гарантией производителя.
-                </p>
-                <p class="text2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
-         количество постоянных клиентов. Мы гордимся тем, 
-                    что к нам обращаются по рекомендациям и, в свою очередь,
-                     советуют нас родным и близким.
-                </p>
-                <input type="checkbox" name="btn" id="btn">
-                <label for="btn">Читать далее</label>
+                <p class="left-wrapper__text"><span class="left-wrapper__span span-one">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span><span class="left-wrapper__span span-two">, что подтверждает большое
+               количество постоянных клиентов. Мы гордимся тем, 
+                          что к нам обращаются по рекомендациям и, в свою очередь,
+                           советуют нас родным и близким.</span></p>
+                <a class="left-wrapper__link">Читать далее</a>
             </div>
-            <div class="wrapper">
-                <img class="img" src="images/_MG_3223.png">
-            </div>
-        </section>
-    
-    </main>
 
-    
+            <!-- правый контейнер -->
+             <div class="right-wrapper">
+                <img src="../src/images/_MG_3223.png" alt="ФоТо ЛоГо" class="right-wrapper__photo">
+             </div>
+         </div>
+        
+     </div>
+</main>    
 </body>
 </html>
-
 
 
 
