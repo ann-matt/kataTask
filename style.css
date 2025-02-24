@@ -257,7 +257,7 @@
     .menu-container__menu-list {
       flex-wrap: nowrap;
       
-       overflow-x: visible; 
+       overflow: hidden; 
     }
     .menu-container__menu-item {
       white-space: nowrap;
