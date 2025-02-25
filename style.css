@@ -191,7 +191,7 @@
   
   }
   .left-wrapper__link::before {
-    content: url(../icons/down.png);
+    content: url(icons/icon-before.png);
     margin-left: 0px;
     margin-right: 10px;
   }
