@@ -45,9 +45,7 @@
     display: none;
   }
   
-  /* *:not(.icon) {
-    background-color: #F8F8F8;
-  } */
+
   
   main {
     background-color: #F8F8F8;
@@ -123,11 +121,11 @@
   }
   
   
-  .main-section__content-container {
+  /* .main-section__content-container {
     display: flex;
     justify-content: space-between;
     
-  }
+  } */
   
   
   
@@ -161,18 +159,25 @@
     border-radius: 5px;
   }
   
+
+  .main-section__content-container {
+    display: flex;
+  }
   
   .left-wrapper {
-    width: 490px;
-    margin-right: 57px;
-    margin-left: 20px;
+    max-width: 43vw;
+    margin-right: 3%;
+    margin-left: 3%;
+    
+    /* margin-right: 57px;
+    margin-left: 20px; */
   }
   
   
   .left-wrapper__text {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-family: 'TT Lakes Regular';
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     
   }
   
@@ -195,10 +200,23 @@
     margin-left: 0px;
     margin-right: 10px;
   }
+
   .right-wrapper {
-    margin: 0;
-    margin-right: 20px;       
+    
+    
+    max-width: 49vw;
+    min-width: 320px;
+    
+
+           
   }
+  .right-wrapper__photo {
+    width: 100%;
+    height: auto;
+    margin-right: 3%;
+    
+   
+  } 
   
   
   
@@ -245,12 +263,33 @@
     .span-two {
       display: none;
     }
-  
-    .right-wrapper__photo {
-      width: 470px;
+
+    .menu-list {
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: hidden;
     }
+    .main-section__content-container {
+        
+    }
+
+    @ @media (max-width: 767px) {
+        .container{
+            width: auto;
+        }
+
+  
+/*     /.right-wrapper__photo {
+       max-width: 470px;
+      min-width: 320px; 
+        
+        margin: 5px;
+        max-width: 530px;
+        min-width: 320px;
+    } 
+
     .left-wrapper {
-      width:360px;
+       width:360px; 
       margin-right: 20px;
     }
   
@@ -261,7 +300,7 @@
     }
     .menu-container__menu-item {
       white-space: nowrap;
-    }
+    } */
     /* .menu-list {
       background-color: #F8F8F8;
       overflow: auto;
@@ -277,7 +316,7 @@
     }  */
   }
   
-  @media (max-width: 970px) {
+/*   @media (max-width: 970px) {
   .container{
       width: 770px;
   }
@@ -288,18 +327,18 @@
     margin-bottom: 20px;
   }
   .right-wrapper__photo {
-    width: 360px;
+    width: 40%;
     margin-top: 10px;
   }
   .left-wrapper {
-    width:360px;
-    margin-right: 30px;
+    width:45%;
+    /* margin-right: 30px; 
     margin-top: 10px;
   }
   
-  }
+  } */
   
-  @media (max-width: 767px) {
+  /* @media (max-width: 767px) {
   .container{
       width: 540px;
   }
@@ -373,4 +412,4 @@
   
   
   }
-  
+   */}
