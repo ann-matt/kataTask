@@ -10,106 +10,74 @@
     <title>Услуги </title>
 </head>
 <body>
-<main>
-    <!-- Навигация для планшета и мобы -->
-     <div class="nav-section">
+    <main>
+      <nav class="nav-section">
         <div class="container nav-section__nav">
-            <header class="nav-section__header header">
-                <div class="nav-section__burger-logo">
-                    <div class="nav-section__burger icon">
-                        <img src="icons/burger-line.png" alt="burger">
-                    </div>
-                    <div class="nav-section__devider devider">
-                        <img src="icons/divider.png" alt="devider">
-                    </div>
-
-                    <div class="nav-section__logo logo">
-                        <img src="icons/Group.png" alt="logo">
-                    </div>
-                </div>
-
-                <ul class="nav-section__list">
-                    <li class="nav-section__list-item">
-                        <div class="icon"><img src="icons/call-pic.png" alt="звонок"></div>
-                    </li>
-                    <li class="nav-section__list-item">
-                        <div class="icon"><img src="icons/call-pic.png" alt="сообщение"></div>
-                    </li>
-                    <li class="nav-section__list-item">
-                        <div class="icon"><img src="icons/prof-pic.png" alt="профиль"></div>
-                    </li>
-                    <div class="nav-section__devider devider">
-                        <img src="icons/divider.png" alt="devider">
-                    </div>
-                    <li class="nav-section__list-item">
-                        <div class="icon"><img src="icons/repair-pic.png" alt="заявка"></div>
-                    </li>
-                    <li class="nav-section__list-item">
-                        <div class="icon"><img src="icons/status-pic.png" alt="статус ремонта"></div>
-                    </li>
-                    
-                </ul>
-
-            </header>
-        </div>
-     </div>
-    <!-- Главная секция -->
-     <div class="main-section">
-        <div class="container main-section__nav-container">
-            <!-- Навигационное меню -->
-             <header class="main-section__header header">
-                <div class="main-section__title title"><h1>Услуги и сервисы</h1></div>
-                <ul class="main-section__list">
-                    <li class="main-section__list-item">Оставить заявку
-                        <div class="icon"><img src="icons/repair-pic.png" alt="заявка"></div>
-                    </li>
-                    <li class="main-section__list-item">Статус ремонта
-                        <div class="icon"><img src="icons/status-pic.png" alt="статус ремонта"></div>
-                    </li>
-                </ul>
-             </header>
-        </div>
-
-        <!-- Список услуг  -->
-        <div class="container main-section__menu-container">
-            <ul class="menu-container__menu-list menu-list">
-                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Ремонтируемые бренды</a></li>
-                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Ремонтируемые устройства</a></li>
-                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Цены на услуги</a></li>
-                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Адреса сервисных центров</a></li>
-                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Специальные цены</a></li>
-                
-                <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Отзывы</a></li>
-              </ul>
-        </div>
-
-        <!-- Контентный контейнер -->
-         <div class="main-section__content-container container">
-            <!-- Левый контейнер -->
-            <div class="left-wrapper">
-                <!-- Текст -->
-                <p class="left-wrapper__text">Мы являемся авторизованным сервисным
-                    центром по ремонту техники Dell.
-                     Только у нас вы можете отремонтировать свой ноутбук Dell
-               с официальной гарантией производителя. </p>
-
-                <p class="left-wrapper__text"><span class="left-wrapper__span span-one">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span><span class="left-wrapper__span span-two">, что подтверждает большое
-               количество постоянных клиентов. Мы гордимся тем, 
-                          что к нам обращаются по рекомендациям и, в свою очередь,
-                           советуют нас родным и близким.</span></p>
-                <a class="left-wrapper__link">Читать далее</a>
+          <header class="nav-section__header">
+            <div class="nav-section__burger-logo">
+              <div class="nav-section__burger burger-icon">
+                  
+              </div>
+              <span class="nav-section__divider divider divider-one"></span>
+              <div class="nav-section__logo logo"></div>
+              <span class="nav-section__divider divider divider-two"></span>
             </div>
-
-            <!-- правый контейнер -->
-             <div class="right-wrapper">
-                <img src="images/_MG_3223.png" alt="ФоТо ЛоГо" class="right-wrapper__photo">
-             </div>
-         </div>
-        
-     </div>
-</main>    
-</body>
-</html>
+            <ul class="nav-section__list">
+              <li class="nav-section__list-item icon phone-icon"></li>
+              <li class="nav-section__list-item icon message-icon"></li>
+              <li class="nav-section__list-item icon profile-icon"></li>
+              <li class="nav-section__divider divider divider-three"></li>
+              <li class="nav-section__list-item icon application-icon"></li>
+              <li class="nav-section__list-item icon status-icon"></li>
+            </ul>
+          </header>
+        </div>
+      </nav>
+  
+      <section class="main-section">
+        <div class="container">
+          <header class="main-section__header">
+            <div class="main-section__title">
+              <h1 class="title">Услуги и сервисы</h1>
+            </div>
+            <ul class="main-section__list">
+              <li class="main-section__list-item application-text">Оставить заявку</li>
+              <li class="main-section__list-item status-text">Статус ремонта</li>
+            </ul>
+          </header>
+          <div class="container main-section__menu-container">
+              <ul class="menu-container__menu-list menu-list">
+                  <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Ремонтируемые бренды</a></li>
+                  <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Ремонтируемые устройства</a></li>
+                  <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Цены на услуги</a></li>
+                  <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Адреса сервисных центров</a></li>
+                  <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Специальные цены</a></li>
+                  
+                  <li class="menu-container__menu-item"><a class="menu-container__link" href="#">Отзывы</a></li>
+                </ul>
+          </div>
+  
+          <div class="main-section__content-container">
+            <div class="left-wrapper">
+              <p class="left-wrapper__text">
+                Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              </p>
+              <p class="left-wrapper__text">
+                <span class="span-one">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span><span class="span-two">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
+              </p>
+              <a class="left-wrapper__link" href="#">Читать далее</a>
+            </div>
+            <div class="right-wrapper">
+              <img src="images/_MG_3223.png" alt="Изображение
+              " class="right-wrapper__photo">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  </html>
+  
 
 
 
