@@ -278,7 +278,7 @@ main {
   color: #FF3E79;
 }
 .left-wrapper__link::before {
-  content:url(../icons/down.png);
+  content:url(icons/down.png);
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -344,7 +344,7 @@ main {
     width: 40px; 
     height: 40px;
     margin-left: 8px;
-    background: url('../icons/repair.png') no-repeat center;
+    background: url('icons/repair.png') no-repeat center;
     background-size: contain;
   }
   .status-text::after {
@@ -352,7 +352,7 @@ main {
     width: 40px; 
     height: 40px;
     margin-left: 8px;
-    background: url('../icons/checkstatus.png') no-repeat center;
+    background: url('icons/checkstatus.png') no-repeat center;
     background-size: contain;
   }
 }
