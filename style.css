@@ -45,37 +45,37 @@
 .logo {
   width:100px;
   height:54px;
-  background-image: url(../icons/logopic.png);
+  background-image: url(icons/logopic.png);
 }
 .burger-icon {
   width: 40px;
   height: 40px; 
-  background-image: url(../icons/burger-icon.png);
+  background-image: url(icons/burger-icon.png);
 }
 .phone-icon {
   width: 40px;
   height: 40px; 
-  background-image: url(../icons/call-icon.png);
+  background-image: url(icons/call-icon.png);
 }
 .message-icon {
   width: 40px;
   height: 40px; 
-  background-image: url(../icons/chat-icon.png);
+  background-image: url(icons/chat-icon.png);
 }
 .profile-icon{
   width: 40px;
   height: 40px; 
-  background-image: url(../icons/profile-icon.png);
+  background-image: url(icons/profile-icon.png);
 }
 .application-icon {
   width: 40px;
   height: 40px; 
-  background-image: url(../icons/repair.png);
+  background-image: url(icons/repair.png);
 }
 .status-icon {
   width: 40px;
   height: 40px; 
-  background-image: url(../icons/checkstatus.png);
+  background-image: url(icons/checkstatus.png);
 }
 
 ul 
