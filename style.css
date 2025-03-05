@@ -73,8 +73,9 @@ ul
 {
   list-style-type: none;
 }
-body {
+body, html {
   overflow-x: hidden;
+  width: 100%;
 
 }
 main {
@@ -86,6 +87,7 @@ main {
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 0px;
+  overflow-x: hidden;
 }
 
 .nav-section {
@@ -214,11 +216,12 @@ main {
   margin-left: 10px;
   margin-bottom: 15px;
   font-family: 'TT Lakes Medium';
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   row-gap: 20px;
   white-space: nowrap;
   list-style-type: none;
-  overflow: hidden;
+  overflow: auto;
+  max-width: 100%;
   
   
  
