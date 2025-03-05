@@ -213,6 +213,8 @@ main {
 
 .main-section__menu-container {
   padding: 0;
+  overflow-x: auto;
+  width: 100%;
 }
 .menu-container__menu-list {
   display: flex;
@@ -234,7 +236,7 @@ main {
   text-decoration: none;
   color: #7E7E82;
   padding: 10px 20px;
-  display: flex;
+  display: inline-flex;
   
 }
 
@@ -339,6 +341,7 @@ main {
   }
   .menu-container__menu-list {
     flex-wrap: wrap;
+    row-gap: 0;
   }
   .main-section__list-item {
     display: flex;
