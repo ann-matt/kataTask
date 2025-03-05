@@ -36,7 +36,10 @@
 .logo {
   width:100px;
   height:54px;
-  background-image: url(icons/logopic.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 .burger-icon {
   width: 40px;
